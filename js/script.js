@@ -1,9 +1,10 @@
 /* Data to Show*/
 const data = [
     {
-     quote: `“ARC HUNTER”`, 
-     emoji: '👺', 
+     quote: `ARC HUNTER`, 
+     emoji: 'url(trials-hunter.png)', 
      image: `url(assets/arc/H-arc2.jpg)`
+     
     }, 
     {
      quote: `“ARC WARLOCK”`, 
@@ -52,17 +53,20 @@ const data = [
   */
   // blockquote
   const quote = document.querySelector('blockquote');
+
   // emoji
   const emoji = document.querySelector('p');
+
   // background
   const bgImage = document.querySelector('body');
 
-
   
   // Check-Check: change text
-  quote.innerHTML = "Colin is quotable.";
+  quote.innerHTML = "Hello world!";
+
   // Check-Check: change emoji text
-  emoji.innerHTML = "👍️";
+  emoji.innerHTML = '🦅';
+
   // Check-Check: background image
   bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
 
