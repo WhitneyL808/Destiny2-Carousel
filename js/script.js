@@ -2,7 +2,7 @@
 const data = [
     {
      quote: `“ARC HUNTER”`, 
-     emoji: '', 
+     emoji: '👺', 
      image: `url(assets/arc/H-arc2.jpg)`
     }, 
     {
@@ -56,6 +56,8 @@ const data = [
   const emoji = document.querySelector('p');
   // background
   const bgImage = document.querySelector('body');
+
+
   
   // Check-Check: change text
   quote.innerHTML = "Colin is quotable.";
@@ -63,6 +65,8 @@ const data = [
   emoji.innerHTML = "👍️";
   // Check-Check: background image
   bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
+
+
   
   /*
    * Navigate to Items with Event Listeners
@@ -73,7 +77,7 @@ const data = [
   // get next button
   const nextButton = document.querySelector("img.next");
   // get previous button
-  const prevButton = document.querySelector("img.prev");
+  const prevButton = document.querySelector("img.back");
   // get random button
   const randButton = document.querySelector("img.random");
   
@@ -94,6 +98,8 @@ const data = [
     bgImage.style.backgroundImage = data[itemNumber].image;
     
   });
+
+
     
   // listen for clicks on previous button
   prevButton.addEventListener("click", () => {
@@ -111,6 +117,8 @@ const data = [
     emoji.innerHTML = data[itemNumber].emoji;
     bgImage.style.backgroundImage = data[itemNumber].image;
   });
+
+
   
   // listen for clicks on random button
   randButton.addEventListener('click', () => {
@@ -124,6 +132,8 @@ const data = [
     bgImage.style.backgroundImage = data[randomNumber].image;
     
   });
+
+
   
   // listen for keypress next
   document.addEventListener('keyup', (event) => {
