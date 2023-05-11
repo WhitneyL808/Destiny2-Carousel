@@ -2,48 +2,48 @@
 const data = [
     {
      quote: `ARC HUNTER`, 
-     emoji: 'url(trials-hunter.png)', 
+     icon:  '<img src="assets/classes/Hunter.svg" alt="hunter">', 
      image: `url(assets/arc/H-arc2.jpg)`
-     
+
     }, 
     {
-     quote: `“ARC WARLOCK”`, 
-     emoji: '🌊', 
+     quote: `ARC WARLOCK`, 
+     icon:  '<img src="assets/classes/Warlock.svg" alt="warlock">' , 
      image: `url(assets/arc/W-arc.jpg)`
     },  
     {
      quote: `“ARC TITAN”`, 
-     emoji: '🌲' , 
+     icon: '<img src="assets/classes/Titan.svg" alt="titan">' , 
      image: `url(assets/arc/T-arc.jpg)`
     },
     {
       quote: `“SOLAR HUNTER”`, 
-      emoji: '👌', 
+      icon: '<img src="assets/classes/Hunter.svg" alt="hunter">', 
       image: `url(assets/solar/H-solar.jpg)`
     },
     {
       quote: `“SOLAR WARLOCK”`, 
-      emoji: '🦅', 
+      icon: '<img src="assets/classes/Warlock.svg" alt="warlock">', 
       image: `url(assets/solar/W-solar.jpg)`
     },
     {
       quote: `“SOLAR TITAN”`, 
-      emoji: '👺', 
+      icon: '<img src="assets/classes/Titan.svg" alt="titan">', 
       image: `url(assets/solar/T-solar.png)`
     },
     {
       quote: `“STASIS HUNTER”`, 
-      emoji: '🦅', 
+      icon: '<img src="assets/classes/Hunter.svg" alt="hunter">', 
       image: `url(assets/stasis/H-stasis.jpg)`
     },
     {
       quote: `“STASIS WARLOCK”`, 
-      emoji: '🦅', 
+      icon: '<img src="assets/classes/Warlock.svg" alt="warlock">', 
       image: `url(assets/stasis/W-stasis2.jpg)`
     }, 
     {
       quote: `“STASIS TITAN”`, 
-      emoji: '🦅', 
+      icon: '<img src="assets/classes/Titan.svg" alt="titan">', 
       image: `url(assets/stasis/T-stasis.jpg)`
     }
   ];
@@ -55,7 +55,7 @@ const data = [
   const quote = document.querySelector('blockquote');
 
   // emoji
-  const emoji = document.querySelector('p');
+  const icon = document.querySelector('p');
 
   // background
   const bgImage = document.querySelector('body');
@@ -65,10 +65,10 @@ const data = [
   quote.innerHTML = "Hello world!";
 
   // Check-Check: change emoji text
-  emoji.innerHTML = '🦅';
+  icon.innerHTML = '🦅';
 
   // Check-Check: background image
-  bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
+  bgImage.style.backgroundImage= 'red';
 
 
   
@@ -98,7 +98,7 @@ const data = [
   
     // display data based on array index
     quote.innerHTML = data[itemNumber].quote;
-    emoji.innerHTML = data[itemNumber].emoji;
+    icon.innerHTML = data[itemNumber].icon;
     bgImage.style.backgroundImage = data[itemNumber].image;
     
   });
@@ -118,7 +118,7 @@ const data = [
     
     // display data based on array index
     quote.innerHTML = data[itemNumber].quote;
-    emoji.innerHTML = data[itemNumber].emoji;
+    icon.innerHTML = data[itemNumber].icon;
     bgImage.style.backgroundImage = data[itemNumber].image;
   });
 
@@ -132,7 +132,7 @@ const data = [
     
     // display data based random number
     quote.innerHTML = data[randomNumber].quote;
-    emoji.innerHTML = data[randomNumber].emoji;
+    icon.innerHTML = data[randomNumber].icon;
     bgImage.style.backgroundImage = data[randomNumber].image;
     
   });

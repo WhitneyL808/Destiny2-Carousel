@@ -22,6 +22,7 @@ body {
     main {
       font-size: 5vmin;
       text-align: center;
+      border-radius: 20px;
       
       /* Add contrast to text */
       background-color: rgba(255, 255, 255, 0.25);
@@ -50,6 +51,10 @@ body {
 
     p{
       color: purple;
+    }
+
+    .hunter{
+      color: pink;
     }
     
     
