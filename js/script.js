@@ -2,7 +2,7 @@
 const data = [
     {
      quote: `“ARC HUNTER”`, 
-     emoji: '🗻', 
+     emoji: '', 
      image: `url(assets/arc/H-arc2.jpg)`
     }, 
     {
