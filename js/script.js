@@ -3,47 +3,47 @@ const data = [
     {
      quote: `“ARC HUNTER”`, 
      emoji: '🗻', 
-     image: `url(assets/mountain.jpg)`
+     image: `url(assets/arc/H-arc2.jpg)`
     }, 
     {
      quote: `“ARC WARLOCK”`, 
      emoji: '🌊', 
-     image: `url(assets/ocean.jpg)`
+     image: `url(assets/arc/W-arc.jpg)`
     },  
     {
      quote: `“ARC TITAN”`, 
      emoji: '🌲' , 
-     image: `url(assets/tree.jpg)`
+     image: `url(assets/arc/T-arc.jpg)`
     },
     {
       quote: `“SOLAR HUNTER”`, 
       emoji: '👌', 
-      image: `url(assets/forest.jpg)`
+      image: `url(assets/solar/H-solar.jpg)`
     },
     {
       quote: `“SOLAR WARLOCK”`, 
       emoji: '🦅', 
-      image: `url(assets/swoop4.jpeg)`
+      image: `url(assets/solar/W-solar.jpg)`
     },
     {
       quote: `“SOLAR TITAN”`, 
       emoji: '👺', 
-      image: `url(assets/swoop5.png)`
+      image: `url(assets/solar/T-solar.jpg)`
     },
     {
       quote: `“STASIS HUNTER”`, 
       emoji: '🦅', 
-      image: `url(assets/swoop4.jpeg)`
+      image: `url(assets/stasis/H-stasis.jpg)`
     },
     {
       quote: `“STASIS WARLOCK”`, 
       emoji: '🦅', 
-      image: `url(assets/swoop4.jpeg)`
+      image: `url(assets/stasis/W-stasis.jpg)`
     }, 
     {
       quote: `“STASIS TITAN”`, 
       emoji: '🦅', 
-      image: `url(assets/swoop4.jpeg)`
+      image: `url(assets/stasis/T-stasis.jpg)`
     }
   ];
   
