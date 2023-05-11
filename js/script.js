@@ -1,34 +1,49 @@
 /* Data to Show*/
 const data = [
     {
-     quote: `“Be like a mountain.”`, 
+     quote: `“ARC HUNTER”`, 
      emoji: '🗻', 
      image: `url(assets/mountain.jpg)`
     }, 
     {
-     quote: `“Brave the oceans.”`, 
+     quote: `“ARC WARLOCK”`, 
      emoji: '🌊', 
      image: `url(assets/ocean.jpg)`
     },  
     {
-     quote: `“Grow like a tree.”`, 
+     quote: `“ARC TITAN”`, 
      emoji: '🌲' , 
      image: `url(assets/tree.jpg)`
     },
     {
-      quote: `“We'll be ok now.”`, 
+      quote: `“SOLAR HUNTER”`, 
       emoji: '👌', 
       image: `url(assets/forest.jpg)`
     },
     {
-      quote: `“It's a good day to be an Eag”`, 
+      quote: `“SOLAR WARLOCK”`, 
       emoji: '🦅', 
       image: `url(assets/swoop4.jpeg)`
     },
     {
-      quote: `“Lets go EAGS!!!”`, 
+      quote: `“SOLAR TITAN”`, 
       emoji: '👺', 
       image: `url(assets/swoop5.png)`
+    },
+    {
+      quote: `“STASIS HUNTER”`, 
+      emoji: '🦅', 
+      image: `url(assets/swoop4.jpeg)`
+    },
+    {
+      quote: `“STASIS WARLOCK”`, 
+      emoji: '🦅', 
+      image: `url(assets/swoop4.jpeg)`
+    }, 
+    {
+      quote: `“STASIS TITAN”`, 
+      emoji: '🦅', 
+      image: `url(assets/swoop4.jpeg)`
     }
   ];
   
