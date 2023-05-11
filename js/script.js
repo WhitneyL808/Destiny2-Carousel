@@ -28,7 +28,7 @@ const data = [
     {
       quote: `“SOLAR TITAN”`, 
       emoji: '👺', 
-      image: `url(assets/solar/T-solar.jpg)`
+      image: `url(assets/solar/T-solar.png)`
     },
     {
       quote: `“STASIS HUNTER”`, 
@@ -38,7 +38,7 @@ const data = [
     {
       quote: `“STASIS WARLOCK”`, 
       emoji: '🦅', 
-      image: `url(assets/stasis/W-stasis.jpg)`
+      image: `url(assets/stasis/W-stasis2.jpg)`
     }, 
     {
       quote: `“STASIS TITAN”`, 
